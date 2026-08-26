@@ -1,0 +1,10 @@
+slab=function(theta)
+ {
+  theta0=c(0.25,0,1,1,0.75,0,-1,-1)
+  ind1=c(1,2,3,4,5,6,7,8)
+  ind2=c(5,6,7,8,1,2,3,4)
+  res1=sum((theta[ind1]-theta0)^2)
+  res2=sum((theta[ind2]-theta0)^2)
+  theta=theta[ind1]*(res1<=res2)+theta[ind2]*(res1>res2)
+  return(theta)
+ }
