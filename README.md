@@ -21,7 +21,7 @@ Repository: <https://github.com/weixingsong/Robust-Mixture-Learning-via-Exponent
 
 | R program | Tables and figures generated |
 |---|---|
-| `mixregEP_UnequalAlpha.R` | Tables 4, 5, and 6 |
+| `mixregEP_UnequalAlpha.R, mixregMLE.R` | Figures 4, 5; Tables 4, 5, and 6 | 
 
 ### Simulation 3
 
@@ -34,8 +34,15 @@ Repository: <https://github.com/weixingsong/Robust-Mixture-Learning-via-Exponent
 | R program | Tables and figures generated |
 |---|---|
 | `leverage_detection.R` | Leverage-detection analysis used in Simulation 4 |
-| `mixregEP_Simulation4.R` | Tables 8 and 9; Table A.11 |
-| `mixregT_Simulation4.R` | Tables 8 and 9; Table A.11 |
+| `mixregEP_Simulation4.R` | Tables 8 and 9; Table A.10 |
+| `mixregT_Simulation4.R` | Tables 8 and 9; Table A.10 |
+
+### Simulation 5
+
+| R program | Tables and figures generated |
+|---|---|
+| `mixregEP_ThreeComponents.R` | Table A.11 |
+
 
 ### Sensitivity Analysis
 
@@ -43,12 +50,18 @@ Repository: <https://github.com/weixingsong/Robust-Mixture-Learning-via-Exponent
 |---|---|
 | `tonedata.R` | Figures 6 and 7 |
 
+### Banknote Data Analysis
+
+| R program | Tables and figures generated |
+|---|---|
+| `banknote1.R, banknote2.R` | Figure 9 |
+
+
 ## Additional Implementations
 
-The repository also contains R programs implementing **EM Algorithm 2** and fitting a **three-component mixture regression model**:
+The repository also contains R programs implementing **EM Algorithm 2**:
 
 - `mixregEP_EM_Algorithm2.R`
-- `mixregEP_ThreeComponents.R`
 
 Pilot and small-scale simulation studies confirm that both implementations are operational. Because these procedures are computationally intensive, full-scale simulation studies have not yet been conducted.
 
